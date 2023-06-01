@@ -6,7 +6,7 @@ function Banner (){
         <div className='cabecalho'>
             <div className='descricao'>OLÁ EU SOU</div>
             <br></br>
-            <h2>Jeane Cristina   </h2>
+            <h2>Jeane Cristina-   </h2>
             <div className='img-perfil'></div>
         </div>
     
