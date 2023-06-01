@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+.contato{
+    background: url('https://th.bing.com/th/id/OIP.Z6c5YO59Jrqx1YPFMj7oAQHaE8?w=295&h=197&c=7&r=0&o=5&pid=1.7');
+    font-family: 'Poppins';
+    height: 700px;
+}
+
+.borda{
+    display: flex;
+    
+
+}
+
+.Esquerda{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    font-size: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    color: black;
+}
+
+.Direita{
+    width: 300px;
+    height: 390px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid;
+    border-color: white;
+    color: white;
+}
+
+.formulario-completo{
+    width:90%;
+    height: 30px;
+    margin-left: 15px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid;
+    color: white;
+    margin: 5px;
+}
+
+.envio{
+    margin-left: 35%;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.nome,.mensagem{
+    font-size: 20px;
+    margin: 10px;
+}

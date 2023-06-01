@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+:root {scroll-behavior: smooth;}
+
+.menuu{
+    display: flex;
+    padding: 5px;
+    font-family: 'Poppins';
+    background-color: black; 
+    height: 50px;
+    margin-top: 0;
+}
+
+.options1,.options2,.options3,.options4{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.listados{
+    margin-left: 12%;
+}
+

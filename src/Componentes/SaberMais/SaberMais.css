@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+@keyframes slide{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.caixa-redes-3{
+    background-color:white ;
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 80px;
+    
+}
+
+
+.chamado{
+    font-family: 'Poppins';
+    font-size: 50px;
+    margin-left: 250px;
+}
+
+.caixas-redes{
+    display: flex;
+    margin-left: 20%;
+    font-size: 25px;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateY(-80px);
+}
+
+.caixaUm, .caixaDois{
+    text-align: center;
+    font-family: 'Poppins';
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    background: url('https://th.bing.com/th/id/OIP.Z6c5YO59Jrqx1YPFMj7oAQHaE8?w=295&h=197&c=7&r=0&o=5&pid=1.7');
+    border-radius: 5px;
+    color: white;
+}
+
+.um-botao, .dois-botao{
+    display: flex;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 25%;
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+.um-botao:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dois-botao:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.linkL,.linkG{
+    text-decoration: none;
+}

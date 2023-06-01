@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&family=Yellowtail&display=swap');
+.cabecalho{
+    background: url('https://th.bing.com/th/id/OIP.Z6c5YO59Jrqx1YPFMj7oAQHaE8?w=295&h=197&c=7&r=0&o=5&pid=1.7');
+   height: 400px;
+}
+
+.img-perfil{
+    border-radius: 70%;
+    background-image: url('117765404-fotor-bg-remover-20230525121559.png');
+    background-position: center;
+    background-color: black;
+    width: 340px;
+    height: 340px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    margin-top:-100px;
+}
+
+.descricao{
+    margin-top: 10px;
+    display: inline-block;
+    font-family: Courier, monospace;
+    font-size: 70px;
+    color: white;
+    padding-left: 25px;
+}
+
+.cabecalho h2{
+    font-size: 100px;
+    display: inline-block;
+    font-family:'Yellowtail';
+    color: white;
+    padding-left: 100px;
+    margin: 0px;
+    animation: typewriter 3s steps(15) infinite alternate,blink 800ms steps(1) infinite normal;
+    border-right: 3px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 45%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: white;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
